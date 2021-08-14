@@ -1,0 +1,41 @@
+.title {
+    text-transform: uppercase;
+  }
+  
+  .subtitle {
+    color: var(--medium);
+    font-weight: 400;
+  }
+  
+  .block {
+    margin-bottom: 120px;
+  }
+  
+  .button {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  
+  .button-primary {
+    background-color: var(--iris);
+    border-color: var(--iris);
+  }
+  
+  .button-primary:hover {
+    background-color: var(--canario);
+    color: var(--violeta);
+    border-color: var(--canario);
+  }
+  
+  .button-primary-outline {
+    border-color: var(--iris);
+    color: var(--iris);
+  }
+  
+  .button-primary-outline:hover {
+    background-color: var(--canario);
+    border-color: var(--canario);
+    color: var(--violeta);
+  } 

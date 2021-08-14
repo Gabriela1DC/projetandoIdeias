@@ -1,0 +1,47 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    background-color: transparent;
+    transition: background case-out 0.2s;
+}
+
+#header.active {
+    font-weight: 700;
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+
+#header .nav-collapse {
+    width:auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+
+    color: black;
+    border-bottom: solid, 4px, transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--iris);
+    color: var(--violeta);
+  }
+
+.btn_novas_trilha{
+    padding: auto;
+    margin:auto;
+    align-items:center;
+    justify-content:center;
+}
