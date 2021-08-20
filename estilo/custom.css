@@ -69,7 +69,7 @@ body{
       margin-top: 1.75rem;
   }
 
-  #servicos a.destaque {
+  #jornada a.destaque {
     display: block;
     background: var(--light);
     border-radius: 5px;
@@ -80,55 +80,26 @@ body{
     transition: all ease-out 0.2s;
   }
   
-  #servicos a.destaque:hover {
+  #jornada a.destaque:hover {
     background: #fff;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
     transform: scale(1.05);
   }
   
-  #servicos p {
+  #jornada  p {
     color: var(--pretoespecial);
     font-family: 'Poppins', 'Roboto', sans-serif;
   }
   
-  #servicos a.destaque .img-container {
+  #jornada  a.destaque .img-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
   }
   
-  #servicos a.destaque .img-container img {
+  #jornada  a.destaque .img-container img {
     max-height: 160px;
-  }
-  
-  #contato .email {
-    border-radius: 5px;
-    background-color: var(--canario);
-    color: var(--pretoespecial);
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 120px 30px;
-  }
-  
-  #contato .email img {
-    position: absolute;
-    left: 30px;
-    top: -30px;
-  }
-  
-  #contato .email form {
-    width: 60%;
-    display: flex;
-  }
-  
-  #contato .email .form-control,
-  #contato .email .form-control::placeholder {
-    background: none;
-    color:var(--pretoespecial);
   }
   
   #contato ul {
